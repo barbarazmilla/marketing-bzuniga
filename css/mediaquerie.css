@@ -1,0 +1,50 @@
+@media only screen and (max-width: 768px) {
+
+    body{
+        background-image: url("../public/background.jpg"); 
+    }
+
+    .link {
+     position: relative;
+     height: 100px;
+    }
+
+    .link .servicios {
+        display: none;
+    }
+
+    .link .menu {
+        display: flex;
+        position:absolute;
+        font-size: 20px;
+        cursor: pointer;
+        align-items: center;
+        transition: all 0,5s ease 0s;
+    }
+
+    .link .menu li:hover {
+        transform: translateY(-10px);
+    }
+
+    .link .menu a {
+        text-decoration: none;
+        color: gray;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+    }
+
+    .link .menu a:hover {
+        color: indianred;
+    }
+
+    .link .menu-bar {
+        display: none;
+    }
+
+    .footer-titulo {
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 4px;
+    }
